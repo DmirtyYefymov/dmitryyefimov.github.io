@@ -443,6 +443,7 @@ header {
 }
 .fans_time {
     font-size: 15px;
+    margin-top: 30px;
 }
 .fans_name {
     font-size: 23px;
@@ -461,7 +462,7 @@ textarea {
     font-size: 22px;
     margin-bottom: 16px;
 }
-input {
+.btn_submit {
     display: block;
     width: 180px;
     height: 40px;
@@ -473,8 +474,7 @@ input {
     border-radius: 4px;
     cursor: pointer;
 }
-  
-input:hover {
+.btn_submit:hover {
     background-color: rgb(73, 22, 121);
 }
 @media (max-width:575px) {

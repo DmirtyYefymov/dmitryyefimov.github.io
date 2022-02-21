@@ -7,7 +7,7 @@
     <link rel="shortcut icon" href="icons/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/animate.min.css">
     <link rel="stylesheet" href="css/style.css">
-    <title>Lakers Fans Page</title>
+    <title>Los Angeles Lakers</title>
 </head>
 <body>
     <header>
@@ -38,9 +38,9 @@
         </div>
     </header>
 
-    <div class="first">
+    <main class="first">
         <img src="img/first.jpeg" alt="bg" class="bg">
-    </div>
+    </main>
 
     <section class="main" id="main">
         <img src="img/bg1.jpeg" alt="bg" class="bg">
@@ -194,11 +194,15 @@
                     <div class="fans_name">Dreadnaut</div>
                 </div>
             </div>
+            <div class="fans_comments animate__animated animate__backInLeft">
+                <div id="comment-field" class="fans_text"></div>
+                <div class="fans_time"></div>
+            </div>
             <hr>
 
-            <form action="#">
-                <textarea id="subject" name="subject" placeholder="Your comments..."></textarea>
-                <input type="submit" value="Submit">
+            <form>
+                <textarea id="comment-body" name="subject" placeholder="Your comments..."></textarea>
+                <button class="btn_submit" id="comment-add" type="submit">Submit</button>
             </form>
         </div>
     </section>
